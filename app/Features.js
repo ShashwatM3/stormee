@@ -5,7 +5,7 @@ import agent from "../media/agent.png";
 import visionboard from "../media/visionboard.png";
 import sectionwise from "../media/sectionwise.png";
 import flexcard from "../media/flexcard.png";
-import Feature2 from "./Feature2"
+// import Feature2 from "./Feature2"
 
 function Features() {
   let features = {

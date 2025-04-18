@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.features-main {
+  gap: 15px;
+  background: rgb(13, 13, 13);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.features-main > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-variation-settings:"wdth" 100; */
+}
+
+.features-main > h1 > span {
+  font-size: 6vh;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: light;
+  width: 60%;
+  text-align: center;
+}

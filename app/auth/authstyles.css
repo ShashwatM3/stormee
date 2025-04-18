@@ -1,0 +1,45 @@
+.auth-main {
+  background: rgb(13, 13, 13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.auth-form {
+  width: 40vw;
+  padding: 40px;
+  border: 1px solid rgb(44, 44, 44);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.auth-form > h1 {
+  font-size: 5vh;
+  margin-bottom: 10px;
+}
+
+.auth-form > h3 {
+  opacity: 70%;
+  width: 70%;
+}
+
+.auth-form > input {
+  border: 1px solid rgb(54, 54, 54);
+  width: 70%;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.auth-form > input:focus {
+  border: 1px solid rgb(108, 108, 108);
+  transition: 0.3s ease-in-out;
+}
